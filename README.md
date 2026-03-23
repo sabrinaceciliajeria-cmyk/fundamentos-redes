@@ -66,3 +66,33 @@ CMD (`ping`, `tracert`) revisa la red para identificar fallos. Los logs de la ap
 **Load balancer:** Reparte solicitudes entre varios servidores para no sobrecargar uno solo y mantener la disponibilidad de la aplicación.  
 
 **Cloud (AWS, Azure, etc.):** Routers y switches virtuales permiten que tu app escale sin depender de hardware físico, garantizando disponibilidad global.
+
+---
+
+## 7. Glosario
+
+- **Router:** Dispositivo que conecta diferentes redes y dirige paquetes según su IP.  
+- **Switch:** Dispositivo que conecta equipos dentro de la misma red y entrega datos solo al destinatario correcto.  
+- **Hub:** Dispositivo que envía datos a todos los dispositivos de la red, causando tráfico innecesario.  
+- **IP (Internet Protocol):** Dirección única de un dispositivo en la red que permite identificarlo y enrutar sus paquetes.  
+- **MAC address:** Identificador único de la tarjeta de red de un dispositivo.  
+- **Paquete de datos:** Unidad de información enviada por la red.  
+- **Ping:** Herramienta para comprobar si un dispositivo responde en la red.  
+- **Tracert (traceroute):** Herramienta para identificar la ruta que siguen los paquetes hasta un destino.  
+- **Latencia:** Tiempo que tarda un paquete en ir del origen al destino.  
+- **Load balancer:** Sistema que reparte la carga entre varios servidores.  
+- **Cloud:** Infraestructura virtual para escalar aplicaciones sin depender de hardware físico.****
+
+- ---
+
+## 8. Diagrama visual de red
+
+<img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/fb36a225-d138-4593-a722-41f0da8213a0" />
+
+**Descripción:**
+
+- **Router (azul, arriba):** conecta la red local con internet u otras redes.  
+- **Switch (azul, derecha):** entrega datos solo al dispositivo correcto dentro de la red local.  
+- **Hub (verde, izquierda):** envía datos a todos los dispositivos sin filtrar, generando tráfico innecesario.  
+- **Servidores y PCs:** representan los equipos conectados a la LAN, recibiendo datos según si están en switch o hub.
+
